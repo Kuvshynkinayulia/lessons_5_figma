@@ -1,0 +1,285 @@
+@import  "null.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:regular,600,800italic&display=swap');
+/* &display=swap */
+
+@font-face {
+   font-family: MazzardSoftM;
+   src: url('../fonts/MazzardSoftM-Light.woff') format('woff'), url('../fonts/MazzardSoftM-Light.woff2') format('woff2');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: MazzardSoftM;
+   src: url('../fonts/MazzardSoftM-LightItalic.woff') format('woff'), url('../fonts/MazzardSoftM-LightItalic.woff2') format('woff2');
+   font-weight: 300;
+   font-style: italic;
+   font-display: swap;
+}
+@font-face {
+   font-family: Pobeda;
+   src: url('../fonts/Pobeda-Bold.woff') format('woff'), url('../fonts/Pobeda-Bold.woff2') format('woff2');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: Pobeda;
+   src: url('../fonts/Pobeda-Regular.woff') format('woff'), url('../fonts/Pobeda-Regular.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* font-family: 'Open Sans', sans-serif;*/
+
+[class*="__container"] {
+   max-width: 1050px;
+   margin: 0px auto;
+}
+body{
+   font-size: 20px;
+   line-height: 1.5;
+}
+
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+
+/*===========================================*/
+.header {
+   background: rgb(4, 97, 97);
+}
+
+.header__container {
+   min-height: 50px;
+   text-align: right;
+   
+}
+
+.header-menu {
+   font-size: 30px;
+   font-family: 'MazzardSoftM', sans-serif;
+   font-weight: 300;
+   font-style: normal;
+}
+
+.menu-list {
+   padding-top: 10px;
+}
+.menu-link {
+   color: rgb(132, 212, 218);
+   text-decoration: line-through;
+}
+.menu-newspapers{
+   color: rgb(98, 214, 114);
+   text-decoration: underline;
+}
+.menu-figma{
+   color: rgb(226, 121, 226);
+
+}
+/*===========================================*/
+.main {
+   background-color: rgb(240, 237, 236);
+}
+h1{
+   padding: 30px 0;
+   font-size: 40px;
+   color: rgb(2, 70, 19);
+   font-family: Pobeda, sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+
+}
+
+.main-scroll {
+   max-width: 500px;
+   padding: 30px 50px;
+   font-size: 30px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   
+}
+.main-scroll>li>a{
+   color: rgb(8, 61, 12);
+   text-shadow: -10px -5px 4px #024928;
+}
+#types {
+   padding: 50px 30px;
+   font-size: 40px;
+   color: rgb(63, 2, 2);
+   text-transform: uppercase;
+   font-family: MazzardSoftM, sans-serif;
+   font-style: italic;
+   font-weight: 300;
+}
+.main-text{
+   text-align: center;
+}
+.subtitle {
+   color: rgb(109, 109, 109);
+   text-shadow: 10px -5px 5px #024928;
+   padding: 0 0 30px 0;
+}
+.types-list{
+   max-height: 150px;
+   overflow: scroll;
+   text-transform: lowercase;
+   color: rgb(4, 170, 170);
+}
+.types-list span{
+   display: inline-block;
+   padding-right: 40px;
+   text-shadow: 5px 5px 5px rgb(12, 61, 73);
+   color: rgb(9, 77, 94);
+   text-decoration: underline;
+}
+#calories {
+   font-size: 30px;
+   color: rgb(212, 16, 16);
+   word-spacing: 4px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 800;
+   font-style: italic;
+   margin: 20px 0 0px 30px;
+}
+h5 {
+   color: rgb(104, 8, 8);
+   text-decoration: line-through;
+   font-size: 30px;
+   font-family: Pobeda, sans-serif;
+   font-weight: 800;
+   font-style: normal;
+
+}
+.compoud {
+   font-size: 30px;
+   margin: 10px;
+   color: rgb(19, 70, 19);
+   text-shadow: 5px 5px 5px rgb(2, 70, 19);
+}
+.compoud-list {
+   color: rgb(39, 88, 34);
+   letter-spacing: 5px;
+}
+.compoud-list>li>span {
+   display: inline-block;
+   padding: 30px 20px 30px 0;
+   color: rgb(63, 2, 2);
+   font-size: 30px;
+}
+#plus {
+   font-size: 40px;
+   color: rgb(39, 88, 34);
+   letter-spacing: 40px;
+}
+.items {
+   font-size: 30px;
+   color: rgb(63, 9, 114);
+   font-family: Pobeda, sans-serif;
+   font-weight: 700;
+}
+.plus-blood {
+   text-decoration: underline;
+}
+.plus {
+   max-height: 100px;
+   overflow: scroll;
+   color: rgb(99, 17, 17);
+    font-family: Pobeda, sans-serif;
+   font-weight: 400;
+}
+img{
+   text-align: center;
+    margin: 30px 0 30px 0;
+   }
+.plus a{
+   color: rgb(97, 6, 85);
+}
+.plus-eyes a{
+   color: rgb(102, 8, 58);
+}
+.plus-iodine a{
+   color: rgb(8, 214, 42);
+}
+.plus-helps {
+   text-transform: uppercase;
+}
+.plus-heart a{
+   color: cyan;
+}
+.plus-immunity {
+   text-shadow: 10px -5px 4px rgb(26, 6, 83);
+}
+.plus-immunity p{
+   color: rgb(9, 3, 87);
+   text-shadow: 0 0 0 #fff;
+}
+#minus {
+   text-align: center;
+   font-size: 40px;
+   text-decoration: line-through;
+   color: rgb(8, 61, 12);
+   margin: 20px 0 20px 0;
+
+}
+.minus-subtitle {
+   color: rgb(9, 77, 94);
+   font-size: 30px;
+   text-shadow: -4px 5px 5px rgb(9, 3, 87);
+   text-transform: lowercase;
+   margin: 0 0 20px 0;
+   text-indent: 40px;
+
+}
+.happen {
+   text-align: center;
+   font-size: 30px;
+   color: rgb(97, 6, 85);
+   text-transform: uppercase;
+   margin-bottom: 30px;
+   font-family: Pobeda, sans-serif;
+   font-weight: 700;
+}
+.happen-subtitle {
+   color: rgb(99, 17, 17);
+   text-decoration: underline;
+}
+h4{
+   text-align: center;
+   font-size: 30px;
+   color: rgb(90, 31, 29);
+   text-shadow: 10px -10px 4px rgb(9, 77, 94);
+}
+.yet-items{
+    margin: 20px;
+    
+}
+.yet-items>a{
+   color: rgb(90, 31, 29);
+   padding: 30px;
+}
+/*===========================================*/
+.footer {
+    background: rgb(4, 97, 97);
+
+}
+.footer__container {
+   min-height: 90px;
+}
+.footer-list>.footer-items>a {
+
+   color: rgb(98, 214, 114);
+   width: 60px;
+
+}
+.footer-list li{
+   display: inline-block;
+   padding: 30px 10px 0 0;
+}
+.footer-list{
+   text-align: center;
+}
